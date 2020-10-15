@@ -21,7 +21,7 @@ namespace Lab_3
             this.radius = circle.radius;
         } 
 
-        public double GetRadius
+        public virtual double GetRadius
         {
             get { return radius; }
             set
@@ -41,7 +41,7 @@ namespace Lab_3
             return 2 * Math.PI * this.radius;
         }
 
-        public double GetSquare() 
+        public virtual double GetSquare() 
         {
             return Math.PI * Math.Pow(this.radius, 2);
         }
