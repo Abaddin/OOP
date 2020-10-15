@@ -14,7 +14,7 @@ namespace Lab_3
 
         public TSphere(double radius) : base(radius)
         { 
-            this.radius = radius; 
+            
         }
 
         public TSphere(TSphere sphere)
@@ -22,29 +22,21 @@ namespace Lab_3
             this.radius = sphere.radius;
         }
 
-        public override double GetRadius
-        {
-            get { return radius; }
-            set
-            {
-                if (value <= 0) throw new ArgumentOutOfRangeException(nameof(value));
-                else this.radius = value;
-            }
-        }
+        
 
         public override double GetSquare()
         {
-            return 4 * Math.PI * Math.Pow(this.radius, 2);
+            return 4 * Math.PI * Math.Pow(base.Radius, 2);
         }
 
         public double GetVolume()
         {
-            return (4/3) * Math.PI * Math.Pow(this.radius,3);
+            return (4/3) * Math.PI * Math.Pow(base.Radius,3);
         }
 
         public override string ToString()
         {
-            return "Radius:" + radius;
+            return "" + base.Radius;
         }
     }
 }

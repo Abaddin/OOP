@@ -11,17 +11,17 @@ namespace Lab_3
             this.radius = 5;
         }
 
-        public TCircle(double radius) 
+        public TCircle(double radius)
         {
             this.radius = radius;
         }
 
-        public TCircle(TCircle circle) 
-        { 
+        public TCircle(TCircle circle)
+        {
             this.radius = circle.radius;
-        } 
+        }
 
-        public virtual double GetRadius
+        public double Radius
         {
             get { return radius; }
             set
@@ -41,17 +41,17 @@ namespace Lab_3
             return 2 * Math.PI * this.radius;
         }
 
-        public virtual double GetSquare() 
+        public virtual double GetSquare()
         {
             return Math.PI * Math.Pow(this.radius, 2);
         }
 
-        public static TCircle operator +(TCircle circle1, TCircle circle2) 
+        public static TCircle operator +(TCircle circle1, TCircle circle2)
         {
             return new TCircle(circle1.radius + circle2.radius);
         }
 
-        public static TCircle operator -(TCircle circle1, TCircle circle2) 
+        public static TCircle operator -(TCircle circle1, TCircle circle2)
         {
             return new TCircle(Math.Abs(circle1.radius - circle2.radius));
         }
@@ -60,15 +60,15 @@ namespace Lab_3
         {
             return new TCircle(circle1.radius * number);
         }
-            
+
         public static TCircle operator *(double number, TCircle circle1)
         {
             return new TCircle(circle1.radius * number);
         }
-            
+
         public override string ToString()
         {
-            return "Radius:" + radius;
+            return "" + radius;
         }
     }
 }
