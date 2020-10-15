@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace Lab_3
 {
@@ -6,7 +7,7 @@ namespace Lab_3
     {
         static void Main(string[] args)
         {
-            TCircle circle = new TCircle(5);
+            TCircle circle = new TCircle(10);
             TCircle circle2 = new TCircle(6);
             TSphere sphere = new TSphere(7);
             Console.WriteLine("Radius circle: " + circle.Radius);
@@ -23,6 +24,7 @@ namespace Lab_3
             Console.WriteLine(circle * 6);
             Console.WriteLine("Radius sphere: " + sphere.Radius);
             Console.WriteLine("Square sphere: " + sphere.GetSquare());
+            Console.WriteLine(circle.CompareTo(circle2));
         }
     }
 }
