@@ -22,6 +22,32 @@ namespace Lab_3
             this.c = c;
         }
 
+        public double A
+        {
+            get { return a; }
+            set { a = value; }
+        }
+
+        public double B
+        {
+            get { return b; }
+            set { b = value; }
+        }
+        public double C
+        {
+            get { return c; }
+            set { c = value; }
+        }
+
+        public double this[int i]
+        {
+            get
+            { 
+                if (i == 1) return x1; 
+                if (i == 2) return x2; 
+            }
+        }
+
         public void Solution()
         {
             double d; // дискримінант
