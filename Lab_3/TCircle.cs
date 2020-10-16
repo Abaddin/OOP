@@ -65,6 +65,27 @@ namespace Lab_3
         {
             return new TCircle(circle1.radius * number);
         }
+
+        public static bool operator >(TCircle circle1, TCircle circle2) 
+        {
+            return circle1.Radius > circle2.Radius;
+        }
+
+        public static bool operator <(TCircle circle1, TCircle circle2) 
+        {
+            return circle1.Radius < circle2.Radius;
+        }
+
+        public static bool operator ==(TCircle circle1, TCircle circle2) 
+        {
+            return circle1.Radius == circle2.Radius;
+        }
+
+        public static bool operator !=(TCircle circle1, TCircle circle2) 
+        {
+            return circle1.Radius != circle2.Radius;
+        }
+
         public int CompareTo(object obj)
         {
             if (obj == null) return 1;
