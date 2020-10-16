@@ -43,8 +43,9 @@ namespace Lab_3
         {
             get
             { 
-                if (i == 1) return x1; 
-                if (i == 2) return x2; 
+                if (i == 1 && x1 != 0) return x1; 
+                else if(i == 2 && x2 != 0) return x2; 
+                else throw new ArithmeticException("Існує тільки 2 розв'язки");
             }
         }
 
