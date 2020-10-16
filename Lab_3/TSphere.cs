@@ -3,7 +3,7 @@
 namespace Lab_3
 {
 
-    class TSphere : TCircle
+    public class TSphere : TCircle
     {
         private double radius;
 

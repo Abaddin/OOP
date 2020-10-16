@@ -2,7 +2,7 @@
 
 namespace Lab_3
 {
-    class TCircle
+    public class TCircle
     {
         private double radius;
 
