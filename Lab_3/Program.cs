@@ -20,11 +20,15 @@ namespace Lab_3
             Console.WriteLine(circle - circle2);
             Console.Write("Multiplying a number by a circle: ");
             Console.WriteLine(5 * circle);
-            Console.Write("Multiplying a circle by a number: ");
+            Console.Write("Multiplying a ciяrcle by a number: ");
             Console.WriteLine(circle * 6);
             Console.WriteLine("Radius sphere: " + sphere.Radius);
             Console.WriteLine("Square sphere: " + sphere.GetSquare());
-            Console.WriteLine(circle.CompareTo(circle2));
+            Console.WriteLine(circle > circle2);
+            Console.WriteLine(circle < circle2);
+            Console.WriteLine(circle != circle2);
+            Console.WriteLine(circle == circle2);
+            
         }
     }
 }

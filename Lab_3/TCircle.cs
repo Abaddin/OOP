@@ -2,7 +2,7 @@
 
 namespace Lab_3
 {
-    class TCircle : IComparable
+    class TCircle
     {
         private double radius;
 
@@ -86,15 +86,9 @@ namespace Lab_3
             return circle1.Radius != circle2.Radius;
         }
 
-        public int CompareTo(object obj)
+        public override int GetHashCode()
         {
-            if (obj == null) return 1;
-
-            TCircle circle = obj as TCircle;
-            if (circle != null)
-                return this.radius.CompareTo(circle.radius);
-            else
-                throw new ArgumentException("Object is not a TCircle");
+            return Radius.GetHashCode();
         }
 
         public override string ToString()
