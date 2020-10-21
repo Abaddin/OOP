@@ -31,7 +31,7 @@ namespace Lab_3
 
             FrameEquation fre = new FrameEquation(4, 7, 1);
             fre.Solution();
-            Console.WriteLine(fre[3]);
+            Console.WriteLine(fre[2]);
         }
     }
 }
