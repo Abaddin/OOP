@@ -43,42 +43,36 @@ namespace Lab_3
         {
             get
             { 
-                if (i == 1 && x1 != 0) return x1; 
-                else if(i == 2 && x2 != 0) return x2; 
+                if (i == 1 && x1 != null) return x1; 
+                else if(i == 2 && x2 != null) return x2; 
                 else throw new ArithmeticException("Існує тільки 2 розв'язки");
             }
         }
 
         public void Solution()
         {
-            double d; // дискримінант
-
-            try
-            {
+            double d; 
+            try {
                 d = Math.Pow(b, 2) - 4 * a * c;
-
                 if (a == 0)
                     throw new ArithmeticException("Ділення на 0");
 
                 if (d < 0)
                     throw new ArithmeticException("Рівняння не має коренів");
 
-                if (d == 0) 
-                {
+                if (d == 0) {
                     x1 = x2 = (-b / 2 * a);
                     Console.WriteLine("x1 = x2 = " + x1);
                 }
 
-                if (d > 0)
-                {
+                if (d > 0) {
                     x1 = (-b - Math.Sqrt(d)) / (2 * a);
                     x2 = (-b + Math.Sqrt(d)) / (2 * a);
                     Console.WriteLine("x1 = " + x1);
                     Console.WriteLine("x2 = " + x2);
                 }
             }
-            catch (ArithmeticException e)
-            {
+            catch (ArithmeticException e) {
                 Console.WriteLine(e);
             }
         }
