@@ -40,6 +40,14 @@ namespace Lab_3_Tests
         }
 
         [TestMethod]
+        public void Sector()
+        {
+            TCircle circle = new TCircle(7);
+            double angle = 45;
+            Assert.AreEqual(Math.PI * Math.Pow(circle.Radius, 2) * (angle / 360), circle.GetSector(45), "GetSector don't work");
+        }
+
+        [TestMethod]
         public void Comparison()
         {
             TCircle circle = new TCircle(7);
