@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Lab_3
 {
@@ -43,9 +41,9 @@ namespace Lab_3
         {
             get
             { 
-                if (i == 1 && x1 != null) return x1; 
-                else if(i == 2 && x2 != null) return x2; 
-                else throw new ArithmeticException("Існує тільки 2 розв'язки");
+                if (i == 1 && x1 != 0) return x1; 
+                else if(i == 2 && x2 != 0) return x2; 
+                else throw new ArithmeticException("Error! There is no solution!");
             }
         }
 
@@ -55,10 +53,10 @@ namespace Lab_3
             try {
                 d = Math.Pow(b, 2) - 4 * a * c;
                 if (a == 0)
-                    throw new ArithmeticException("Ділення на 0");
+                    throw new ArithmeticException("Division by 0!");
 
                 if (d < 0)
-                    throw new ArithmeticException("Рівняння не має коренів");
+                    throw new ArithmeticException("The equation has no roots!");
 
                 if (d == 0) {
                     x1 = x2 = (-b / 2 * a);
