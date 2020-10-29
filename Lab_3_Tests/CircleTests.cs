@@ -12,7 +12,7 @@ namespace Lab_3_Tests
         public void CreateEmpty()
         {
             TCircle test = new TCircle();
-            Assert.AreEqual(1, test.Radius, "Empty constructor don't work");
+            Assert.AreEqual(5, test.Radius, "Empty constructor don't work");
         }
 
         [TestMethod]
