@@ -86,6 +86,13 @@ namespace Lab_3
             return circle1.Radius != circle2.Radius;
         }
 
+       public override bool Equals(Object obj)
+       {
+            if ((obj == null) || this.GetType() != obj.GetType()) return false;
+            TCircle temp = (TCircle)obj;
+            return Radius == temp.Radius;
+       }
+
         public override int GetHashCode()
         {
             return Radius.GetHashCode();
