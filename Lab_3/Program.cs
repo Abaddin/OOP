@@ -7,7 +7,7 @@ namespace Lab_3
     {
         static void Main(string[] args)
         {
-            /*TCircle circle = new TCircle(10);
+            TCircle circle = new TCircle(10);
             TCircle circle2 = new TCircle(6);
             TSphere sphere = new TSphere(7);
             Console.WriteLine("Radius circle: " + circle.Radius);
@@ -27,7 +27,7 @@ namespace Lab_3
             Console.WriteLine(circle > circle2);
             Console.WriteLine(circle < circle2);
             Console.WriteLine(circle != circle2);
-            Console.WriteLine(circle == circle2);*/
+            Console.WriteLine(circle == circle2);
 
             FrameEquation fre = new FrameEquation(4, 7, 1);
             fre.Solution();

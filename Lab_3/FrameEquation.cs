@@ -31,6 +31,7 @@ namespace Lab_3
             get { return b; }
             set { b = value; }
         }
+
         public double C
         {
             get { return c; }
