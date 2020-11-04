@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net.Http.Headers;
 using System.Threading;
 
 namespace Lab_2
@@ -7,10 +8,13 @@ namespace Lab_2
     {
         static void Main(string[] args)
         {
-            String a = "1 2 3 4\t4 5 6 7\t8 9 10 11\t12 13 14 15";
+            /*String a = "1 2 3 4\t4 5 6 7\t8 9 10 11\t12 13 14 15";
             MyMatrix matrix = new MyMatrix(a);
             
-            Console.WriteLine(matrix);
+            Console.WriteLine(matrix);*/
+
+            MyTime myTime = new MyTime(13, 9, 35);
+            Console.WriteLine(myTime.ToString());
             
         } 
     }

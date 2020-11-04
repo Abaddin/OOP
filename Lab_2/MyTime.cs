@@ -20,8 +20,8 @@ namespace Lab_2
         }
 
         public override string ToString()
-        {
-            return "T: {0:T}" + new MyTime(hour, minute, second);
+        { 
+            return hour + ":" + minute + ":" + second; 
         }
     }
 }
