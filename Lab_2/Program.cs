@@ -190,7 +190,7 @@ namespace Lab_2
             Console.WriteLine("One minute is added to the time -- " + AddOneMinute(myTime));
             Console.WriteLine("One hour is added to the time -- " + AddOneHour(myTime));
             Console.WriteLine("The difference between the two points -- " + Difference(myTime, myTime2));
-            Console.WriteLine("Add seconds to time -- " + AddSeconds(myTime, -60000));
+            Console.WriteLine("Add seconds to time -- " + AddSeconds(myTime, 28799));
             Console.WriteLine(WhatLesson(myTime));
         } 
     }
