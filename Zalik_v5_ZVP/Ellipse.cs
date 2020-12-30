@@ -20,7 +20,8 @@ namespace Zalik_v5_ZVP
 
         public override void GetCircuit()
         {
-            
+            if (a == b) Console.WriteLine(2 * Math.PI * a);
+            else Console.WriteLine();
         }
     }
 }
