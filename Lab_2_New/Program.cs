@@ -24,16 +24,24 @@ namespace Lab_2_New
                     op = Convert.ToInt32(subs[0]);
                     num = Convert.ToDouble(subs[1]);
 
-                    /*double result = Operation(num, op);
-                    WriteLine(result);*/
-                    
                     Action<double> oper;
-                    oper = Boost;
-                    Operation(num, oper);
-                    oper = Boost1;
-                    Operation(num, oper);
-                    oper = Boost2;
-                    Operation(num, oper);
+                    if (op == 0)
+                    {
+                       oper = Root;
+                       Operation(num, oper); 
+                    } else if (op == 1)
+                    {
+                        oper = Triple;
+                        Operation(num, oper);
+                    } else if (op == 2)
+                    {
+                        oper = Addition;
+                        Operation(num, oper);
+                    }
+                    else
+                    {
+                        break;
+                    }
                 }
                 catch (Exception ex)
                 {
@@ -45,54 +53,22 @@ namespace Lab_2_New
 
         private static void Operation(double x, Action<double> op)
         {
-            if (x > 0)
-                op(x);
+            op(x);
         }
         
-        /*private static double Operation(double x, int op)
-        {
-            if (op == 0)
-            {
-                return Math.Sqrt(Math.Abs(x));
-            } 
-            else if (op == 1)
-            {
-                return Math.Pow(x, 3);
-            }
-            else
-            {
-                return x + 3.5;
-            }
-        }*/
-
-        private static void Boost(double x)
+        private static void Root(double x)
         {
             WriteLine(Math.Sqrt(Math.Abs(x)));
         }
         
-        private static void Boost1(double x)
+        private static void Triple(double x)
         {
             WriteLine(Math.Pow(x, 3));
         }
         
-        private static void Boost2(double x)
+        private static void Addition(double x)
         {
             WriteLine(x + 3.5);
         }
-
-        /*private static double Root(double x)
-        {
-            return Math.Sqrt(Math.Abs(x));
-        }
-
-        private static double Triple(double x)
-        {
-            return Math.Pow(x, 3);
-        }
-
-        private static double Addiction(double x)
-        {
-            return x + 3.5;
-        }*/
     }
 }
