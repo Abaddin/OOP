@@ -86,6 +86,7 @@
             this.checkBox1.TabIndex = 4;
             this.checkBox1.Text = "\"супермегакнопка\" поглинає \"Прозорість\"";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // checkBox2
             // 
@@ -95,6 +96,7 @@
             this.checkBox2.TabIndex = 5;
             this.checkBox2.Text = "\"супермегакнопка\" поглинає \"Колір тла\"\r\n\r\n";
             this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
             // checkBox3
             // 
@@ -104,6 +106,7 @@
             this.checkBox3.TabIndex = 6;
             this.checkBox3.Text = "\"супермегакнопка\" поглинає \"Hello World\"";
             this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
             // Form1
             // 
