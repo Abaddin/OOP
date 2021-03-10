@@ -5,7 +5,6 @@ namespace Lab_2_New
 {
     class Program
     {
-
         static void Main(string[] args)
         {
             WriteLine("Enter number 0, 1 or 2 for operations and number(Example: 0 7 or 1 3)\n" +
@@ -24,24 +23,12 @@ namespace Lab_2_New
                     op = Convert.ToInt32(subs[0]);
                     num = Convert.ToDouble(subs[1]);
 
-                    Action<double> oper;
-                    if (op == 0)
-                    {
-                       oper = Root;
-                       Operation(num, oper); 
-                    } else if (op == 1)
-                    {
-                        oper = Triple;
-                        Operation(num, oper);
-                    } else if (op == 2)
-                    {
-                        oper = Addition;
-                        Operation(num, oper);
-                    }
-                    else
-                    {
-                        break;
-                    }
+                    Action[] actions = {
+                        () => Root(num),
+                        () => Triple(num),
+                        () => Addition(num)
+                    };
+                    actions[op].Invoke();
                 }
                 catch (Exception ex)
                 {
@@ -49,11 +36,6 @@ namespace Lab_2_New
                     break;
                 }
             }
-        }
-
-        private static void Operation(double x, Action<double> op)
-        {
-            op(x);
         }
         
         private static void Root(double x)
