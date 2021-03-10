@@ -28,6 +28,7 @@ namespace Lab_2_New
                         () => Triple(num),
                         () => Addition(num)
                     };
+                    
                     actions[op].Invoke();
                 }
                 catch (Exception ex)
