@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestList", "TestList\TestLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MdіApplіcatіon", "MdіApplіcatіon\MdіApplіcatіon.csproj", "{C64F8426-41F5-4589-980C-C3135FFFBFFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinContainer", "WinContainer\WinContainer.csproj", "{EE88D23A-1505-4804-8A9F-C941EA60307F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{C64F8426-41F5-4589-980C-C3135FFFBFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C64F8426-41F5-4589-980C-C3135FFFBFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C64F8426-41F5-4589-980C-C3135FFFBFFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE88D23A-1505-4804-8A9F-C941EA60307F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE88D23A-1505-4804-8A9F-C941EA60307F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE88D23A-1505-4804-8A9F-C941EA60307F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE88D23A-1505-4804-8A9F-C941EA60307F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
