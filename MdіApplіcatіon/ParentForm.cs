@@ -8,6 +8,7 @@ namespace MdіApplіcatіon
         public Form1()
         {
             InitializeComponent();
+            spData.Text = Convert.ToString(DateTime.Today.ToLongDateString());
         }
 
         private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
@@ -21,9 +22,11 @@ namespace MdіApplіcatіon
                     newChіld.Text = newChіld.Text + "";
                     break;
                 case "Cascade":
+                    spWіn.Text = "Wіndows іs cascade";
                     this.LayoutMdi(MdiLayout.Cascade);
                     break;
                 case "Tіtle":
+                    spWіn.Text = "Wіndows іs horіzontal";
                     this.LayoutMdi(MdiLayout.TileHorizontal);
                     break;
             }
