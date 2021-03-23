@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MdіApplіcatіon", "MdіAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinContainer", "WinContainer\WinContainer.csproj", "{EE88D23A-1505-4804-8A9F-C941EA60307F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinLinkLabel", "WinLinkLabel\WinLinkLabel.csproj", "{6087063B-4E79-4726-964F-329703EE3F11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{EE88D23A-1505-4804-8A9F-C941EA60307F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE88D23A-1505-4804-8A9F-C941EA60307F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE88D23A-1505-4804-8A9F-C941EA60307F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6087063B-4E79-4726-964F-329703EE3F11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6087063B-4E79-4726-964F-329703EE3F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6087063B-4E79-4726-964F-329703EE3F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6087063B-4E79-4726-964F-329703EE3F11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
