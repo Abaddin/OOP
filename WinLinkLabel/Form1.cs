@@ -24,7 +24,10 @@ namespace WinLinkLabel
             aResult = aForm.ShowDialog();
             if (aResult == DialogResult.OK)
             {
-                MessageBox.Show("Your name іs " + aForm.TextBoxValue + " " + aForm.TextBoxValue2);
+                MessageBox.Show("Your name іs " + aForm.textBox1.Text + " " + aForm.textBox2.Text);
+                MessageBox.Show("Your address іs " + aForm.textBox3.Text);
+
+                MessageBox.Show("Your phone number іs " + aForm.maskedTextBox1.Text);
             }
 
             linkLabel1.LinkVisited = true;

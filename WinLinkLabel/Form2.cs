@@ -8,17 +8,5 @@ namespace WinLinkLabel
         {
             InitializeComponent();
         }
-        
-        public string TextBoxValue
-        {
-            get { return textBox1.Text;} 
-            set { textBox1.Text = value;}
-        } 
-        
-        public string TextBoxValue2
-        {
-            get { return textBox2.Text;} 
-            set { textBox2.Text = value;}
-        } 
     }
 }

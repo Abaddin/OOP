@@ -35,7 +35,7 @@
             // 
             // linkLabel1
             // 
-            this.linkLabel1.Location = new System.Drawing.Point(121, 48);
+            this.linkLabel1.Location = new System.Drawing.Point(249, 171);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(100, 23);
             this.linkLabel1.TabIndex = 0;
@@ -45,7 +45,7 @@
             // 
             // linkLabel2
             // 
-            this.linkLabel2.Location = new System.Drawing.Point(227, 48);
+            this.linkLabel2.Location = new System.Drawing.Point(389, 171);
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.Size = new System.Drawing.Size(100, 23);
             this.linkLabel2.TabIndex = 1;
