@@ -48,7 +48,7 @@ namespace WinLinkLabel
         private void VisitLink()
         {
             linkLabel1.LinkVisited = true;
-            System.Diagnostics.Process.Start("http://www.microsoft.com");
+            System.Diagnostics.Process.Start("www.microsoft.com");
         }
     }
 }
