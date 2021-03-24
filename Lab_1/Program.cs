@@ -17,13 +17,12 @@ namespace Lab_1
             }
             catch (NullReferenceException e)
             {
-
             }
             catch
             {
                 Console.WriteLine("Triangle does not exist ");
             }
-            
+
 
             //Task 1
             Console.WriteLine("Input size matrix B:");
@@ -48,6 +47,7 @@ namespace Lab_1
 
                     Console.Write("{0}\t", B[i, j]);
                 }
+
                 P[i] = count;
                 count = 0;
                 Console.WriteLine();
@@ -60,6 +60,7 @@ namespace Lab_1
                 indexs += P[i];
                 Console.Write("{0} ", P[i]);
             }
+
             Console.WriteLine();
 
 
@@ -95,6 +96,7 @@ namespace Lab_1
                     Console.Write("{0}\t", Z[i][j]);
                     temp++;
                 }
+
                 Console.WriteLine();
             }
 
@@ -112,6 +114,7 @@ namespace Lab_1
                 {
                     Console.Write("{0}\t", v);
                 }
+
                 Console.WriteLine();
             }
         }

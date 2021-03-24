@@ -41,13 +41,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistrationForm", "Registr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab_2_New_Tasks", "Lab_2_New_Tasks", "{5DF036BA-CB39-40B7-AED4-D9CCBA3CEE2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpWasher", "SharpWasher\SharpWasher.csproj", "{A58B443E-5BBD-4FA0-AE0C-246DAE6BBE7F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpWasher", "Lab_2_New_Tasks\SharpWasher\SharpWasher.csproj", "{A58B443E-5BBD-4FA0-AE0C-246DAE6BBE7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2", "Task2\Task2.csproj", "{DCED96DC-15F2-4957-BFC5-BAA3F9E51AB6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2", "Lab_2_New_Tasks\Task2\Task2.csproj", "{DCED96DC-15F2-4957-BFC5-BAA3F9E51AB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3", "Task3\Task3.csproj", "{B5435D66-E519-48C5-A335-8BB8C374D116}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3", "Lab_2_New_Tasks\Task3\Task3.csproj", "{B5435D66-E519-48C5-A335-8BB8C374D116}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4", "Task4\Task4.csproj", "{172C0524-E42B-453F-A43D-A5922C5731D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4", "Lab_2_New_Tasks\Task4\Task4.csproj", "{172C0524-E42B-453F-A43D-A5922C5731D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
