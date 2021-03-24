@@ -10,7 +10,9 @@ namespace MdiApplication
         public Form1()
         {
             InitializeComponent();
+            spData.Text = Convert.ToString(DateTime.Today.ToLongDateString());
         }
+
 
         private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
@@ -20,6 +22,7 @@ namespace MdiApplication
                     try
                     {
                         Form newChіld = new Form();
+                        newChіld.IsMdiContainer = true;
                         newChіld.Show();
                         newChіld.Text = newChіld.Text + "" +
                                         ++openDocuments;
@@ -33,7 +36,8 @@ namespace MdiApplication
                 case "Cascade":
                     try
                     {
-                        this.LayoutMdi(MdiLayout.Cascade);
+                        LayoutMdi(MdiLayout.Cascade);
+                        spWin.Text = "Windows is cascade";
                     }
                     catch (Exception ex)
                     {
@@ -44,13 +48,14 @@ namespace MdiApplication
                 case "Tіtle":
                     try
                     {
-                        this.LayoutMdi(MdiLayout.TileHorizontal);
+                        LayoutMdi(MdiLayout.TileHorizontal);
+                        spWin.Text = "Windows is horizontal";
                     }
                     catch (Exception ex)
                     {
                         Console.WriteLine(ex.Message);
                     }
-
+                    
                     break;
             }
         }
