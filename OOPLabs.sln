@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinLinkLabel", "WinLinkLabe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistrationForm", "RegistrationForm\RegistrationForm.csproj", "{F664E56B-6B21-4445-BEE4-99D26ABA634B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab_2_New_Tasks", "Lab_2_New_Tasks", "{5DF036BA-CB39-40B7-AED4-D9CCBA3CEE2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpWasher", "SharpWasher\SharpWasher.csproj", "{A58B443E-5BBD-4FA0-AE0C-246DAE6BBE7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,11 +121,18 @@ Global
 		{F664E56B-6B21-4445-BEE4-99D26ABA634B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F664E56B-6B21-4445-BEE4-99D26ABA634B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F664E56B-6B21-4445-BEE4-99D26ABA634B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A58B443E-5BBD-4FA0-AE0C-246DAE6BBE7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A58B443E-5BBD-4FA0-AE0C-246DAE6BBE7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A58B443E-5BBD-4FA0-AE0C-246DAE6BBE7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A58B443E-5BBD-4FA0-AE0C-246DAE6BBE7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {406942D3-0CCF-47E0-8343-A779C63C32D4}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A58B443E-5BBD-4FA0-AE0C-246DAE6BBE7F} = {5DF036BA-CB39-40B7-AED4-D9CCBA3CEE2C}
 	EndGlobalSection
 EndGlobal
