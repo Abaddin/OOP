@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Diagnostics;
 using System.Windows.Forms;
 
 namespace WinLinkLabel
@@ -41,14 +35,16 @@ namespace WinLinkLabel
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Unable to open link that was clicked.");
+                MessageBox.Show("Unable to open link that was clicked." + ex.Message);
             }
         }
 
         private void VisitLink()
         {
-            linkLabel1.LinkVisited = true;
-            System.Diagnostics.Process.Start("www.microsoft.com");
+            Process myProcess = new Process();
+            myProcess.StartInfo.UseShellExecute = true;
+            myProcess.StartInfo.FileName = "http://microsoft.com";
+            myProcess.Start();
         }
     }
 }
