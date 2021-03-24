@@ -17,43 +17,45 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab_5", "1 semester\Lab_5\L
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zalik_v5_ZVP", "1 semester\Zalik_v5_ZVP\Zalik_v5_ZVP.csproj", "{B0C10DC2-D51C-43E4-AF8E-8CDE3EE61D09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_2_New", "Lab_2_New_Tasks\Lab_2_New\Lab_2_New.csproj", "{EAF0B4C8-1818-4D35-8168-2D6252FD54F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_2_New", "2 semester\Lab_2_New_Tasks\Lab_2_New\Lab_2_New.csproj", "{EAF0B4C8-1818-4D35-8168-2D6252FD54F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_2_New_Task2", "Lab_2_New_Tasks\Lab_2_New_Task2\Lab_2_New_Task2.csproj", "{61F928AC-BEAB-4EB9-89F9-5EAF88622C6D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_2_New_Task2", "2 semester\Lab_2_New_Tasks\Lab_2_New_Task2\Lab_2_New_Task2.csproj", "{61F928AC-BEAB-4EB9-89F9-5EAF88622C6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_1_New_Individual_v7", "Lab_1_New_Tasks\Lab_1_New_Individual_v7\Lab_1_New_Individual_v7.csproj", "{60592544-2850-4CDB-A41C-4807F6B56AEC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_1_New_Individual_v7", "2 semester\Lab_1_New_Tasks\Lab_1_New_Individual_v7\Lab_1_New_Individual_v7.csproj", "{60592544-2850-4CDB-A41C-4807F6B56AEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_1_New", "Lab_1_New_Tasks\Lab_1_New\Lab_1_New.csproj", "{153A3696-EA0E-416A-AB64-FDB463321DB9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_1_New", "2 semester\Lab_1_New_Tasks\Lab_1_New\Lab_1_New.csproj", "{153A3696-EA0E-416A-AB64-FDB463321DB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_1_New_2", "Lab_1_New_Tasks\Lab_1_New_2\Lab_1_New_2.csproj", "{E8CE73BC-CAAD-4AFF-886D-06DC63E91768}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_1_New_2", "2 semester\Lab_1_New_Tasks\Lab_1_New_2\Lab_1_New_2.csproj", "{E8CE73BC-CAAD-4AFF-886D-06DC63E91768}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WіnQuestіon.", "Lab_3_New\WіnQuestіon\WіnQuestіon..csproj", "{E5905346-8CD4-4EB5-9FCC-E06467EF8FF0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WіnQuestіon.", "2 semester\Lab_3_New\WіnQuestіon\WіnQuestіon..csproj", "{E5905346-8CD4-4EB5-9FCC-E06467EF8FF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestList", "Lab_3_New\TestList\TestList.csproj", "{A1610C52-9735-4268-8137-E3B6BC3DDB7E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestList", "2 semester\Lab_3_New\TestList\TestList.csproj", "{A1610C52-9735-4268-8137-E3B6BC3DDB7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinContainer", "Lab_3_New\WinContainer\WinContainer.csproj", "{EE88D23A-1505-4804-8A9F-C941EA60307F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinContainer", "2 semester\Lab_3_New\WinContainer\WinContainer.csproj", "{EE88D23A-1505-4804-8A9F-C941EA60307F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinLinkLabel", "Lab_3_New\WinLinkLabel\WinLinkLabel.csproj", "{6087063B-4E79-4726-964F-329703EE3F11}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinLinkLabel", "2 semester\Lab_3_New\WinLinkLabel\WinLinkLabel.csproj", "{6087063B-4E79-4726-964F-329703EE3F11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistrationForm", "Lab_3_New\RegistrationForm\RegistrationForm.csproj", "{F664E56B-6B21-4445-BEE4-99D26ABA634B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistrationForm", "2 semester\Lab_3_New\RegistrationForm\RegistrationForm.csproj", "{F664E56B-6B21-4445-BEE4-99D26ABA634B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab_2_New_Tasks", "Lab_2_New_Tasks", "{5DF036BA-CB39-40B7-AED4-D9CCBA3CEE2C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab_2_New_Tasks", "2 semester\Lab_2_New_Tasks", "{5DF036BA-CB39-40B7-AED4-D9CCBA3CEE2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpWasher", "Lab_2_New_Tasks\SharpWasher\SharpWasher.csproj", "{A58B443E-5BBD-4FA0-AE0C-246DAE6BBE7F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpWasher", "2 semester\Lab_2_New_Tasks\SharpWasher\SharpWasher.csproj", "{A58B443E-5BBD-4FA0-AE0C-246DAE6BBE7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2", "Lab_2_New_Tasks\Task2\Task2.csproj", "{DCED96DC-15F2-4957-BFC5-BAA3F9E51AB6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2", "2 semester\Lab_2_New_Tasks\Task2\Task2.csproj", "{DCED96DC-15F2-4957-BFC5-BAA3F9E51AB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3", "Lab_2_New_Tasks\Task3\Task3.csproj", "{B5435D66-E519-48C5-A335-8BB8C374D116}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3", "2 semester\Lab_2_New_Tasks\Task3\Task3.csproj", "{B5435D66-E519-48C5-A335-8BB8C374D116}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4", "Lab_2_New_Tasks\Task4\Task4.csproj", "{172C0524-E42B-453F-A43D-A5922C5731D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4", "2 semester\Lab_2_New_Tasks\Task4\Task4.csproj", "{172C0524-E42B-453F-A43D-A5922C5731D0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab_3_New", "Lab_3_New", "{5B7734FB-6C35-4F20-9682-C04C013E77D2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab_3_New", "2 semester\Lab_3_New", "{5B7734FB-6C35-4F20-9682-C04C013E77D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MdiApplication", "Lab_3_New\MdiApplication\MdiApplication.csproj", "{2A2A905D-ACCF-4EB3-A458-572DE3F85BB3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MdiApplication", "2 semester\Lab_3_New\MdiApplication\MdiApplication.csproj", "{2A2A905D-ACCF-4EB3-A458-572DE3F85BB3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab_1_New_Tasks", "Lab_1_New_Tasks", "{E997EAFE-91DB-4C2B-A68B-1761C6818123}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab_1_New_Tasks", "2 semester\Lab_1_New_Tasks", "{E997EAFE-91DB-4C2B-A68B-1761C6818123}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 semester", "1 semester", "{73497702-C76A-4F95-B162-59FF43519E81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 semester", "2 semester", "{6079B393-9D9B-4802-89CA-F1EA1EB30C48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -179,5 +181,8 @@ Global
 		{B0C10DC2-D51C-43E4-AF8E-8CDE3EE61D09} = {73497702-C76A-4F95-B162-59FF43519E81}
 		{EAF0B4C8-1818-4D35-8168-2D6252FD54F7} = {5DF036BA-CB39-40B7-AED4-D9CCBA3CEE2C}
 		{61F928AC-BEAB-4EB9-89F9-5EAF88622C6D} = {5DF036BA-CB39-40B7-AED4-D9CCBA3CEE2C}
+		{E997EAFE-91DB-4C2B-A68B-1761C6818123} = {6079B393-9D9B-4802-89CA-F1EA1EB30C48}
+		{5DF036BA-CB39-40B7-AED4-D9CCBA3CEE2C} = {6079B393-9D9B-4802-89CA-F1EA1EB30C48}
+		{5B7734FB-6C35-4F20-9682-C04C013E77D2} = {6079B393-9D9B-4802-89CA-F1EA1EB30C48}
 	EndGlobalSection
 EndGlobal
