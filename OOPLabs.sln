@@ -57,7 +57,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 semester", "1 semester", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 semester", "2 semester", "{6079B393-9D9B-4802-89CA-F1EA1EB30C48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CEmblem", "2 semester\CEmblem\CEmblem.csproj", "{F8E2CCA2-E073-47A1-9A4C-C957A67B2371}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CEmblem", "2 semester\Lab_3_New\CEmblem\CEmblem.csproj", "{F8E2CCA2-E073-47A1-9A4C-C957A67B2371}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
