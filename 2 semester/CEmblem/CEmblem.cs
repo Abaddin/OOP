@@ -1,0 +1,110 @@
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+namespace CEmblem
+{
+    class CEmblem
+    {
+        Color color { get; set; }
+        public Color currentColor { get; set; }
+        int size { get; set; }
+        int x { get; set; }
+        int y { get; set; }
+        string name { get; set; }
+        Pen pen = new Pen(Color.Red, 1f);
+
+        public CEmblem(int x, int y, int size, string name, Color color)
+        {
+            this.x = x;
+            this.y = y;
+            this.size = size;
+            this.name = name;
+            this.color = color;
+            currentColor = color;
+        }
+
+        public override string ToString()
+        {
+            return name;
+        }
+
+        public void Draw(PictureBox pictureBox)
+        {
+            pen.Color = currentColor;
+            using (var g = Graphics.FromImage(pictureBox.Image))
+            {
+                g.DrawEllipse(pen, x, y, size, size);
+                g.DrawEllipse(pen, x + size / 4, y + size / 4, size / 2, size / 2);
+                Point[] points = new Point[3];
+                points[0].X = x + size / 2;
+                points[0].Y = y + size;
+                points[1].X = x + size / 15;
+                points[1].Y = y + size / 4;
+                points[2].X = x + size - (size / 15);
+                points[2].Y = y + size / 4;
+                g.DrawPolygon(pen, points);
+                pictureBox.Refresh();
+            }
+        }
+
+        public void MoveRight()
+        {
+            x++;
+        }
+
+        public void MoveLeft()
+        {
+            x--;
+        }
+
+        public void MoveUp()
+        {
+            y--;
+        }
+
+        public void MoveDown()
+        {
+            y++;
+        }
+
+        public void EndUp()
+        {
+            y = 0;
+        }
+
+        public void EndDown()
+        {
+            y = 560 - size;
+        }
+
+        public void EndLeft()
+        {
+            x = 0;
+        }
+
+        public void EndRight()
+        {
+            x = 737 - size;
+        }
+
+        public void Enlarge()
+        {
+            size++;
+        }
+
+        public void Reduce()
+        {
+            size--;
+        }
+
+        public void Hide()
+        {
+            currentColor = Color.White;
+        }
+
+        public void Show()
+        {
+            currentColor = color;
+        }
+    }
+}
