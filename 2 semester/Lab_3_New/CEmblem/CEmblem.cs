@@ -7,7 +7,7 @@ namespace CEmblem
     {
         Color color { get; set; }
         public Color currentColor { get; set; }
-        int size { get; set; }
+        public int size { get; set; }
         int x { get; set; }
         int y { get; set; }
         string name { get; set; }
@@ -49,22 +49,34 @@ namespace CEmblem
 
         public void MoveRight()
         {
-            x++;
+            if (x != 737 - size)
+            {
+                x++;
+            }
         }
 
         public void MoveLeft()
         {
-            x--;
+            if (x != 0)
+            {
+                x--;
+            }
         }
 
         public void MoveUp()
         {
-            y--;
+            if (y != 0)
+            {
+                y--;
+            }
         }
 
         public void MoveDown()
         {
-            y++;
+            if (y != 560 - size)
+            {
+                y++;
+            }
         }
 
         public void EndUp()
@@ -94,7 +106,10 @@ namespace CEmblem
 
         public void Reduce()
         {
-            size--;
+            if (size > 0)
+            {
+                size--;
+            }
         }
 
         public void Hide()
