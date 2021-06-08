@@ -43,8 +43,13 @@ namespace CEmblem
                 points[2].X = x + size - (size / 15);
                 points[2].Y = y + size / 4;
                 g.DrawPolygon(pen, points);
+                g.RotateTransform(45);
                 pictureBox.Refresh();
             }
+        }
+
+        public void Rotate()
+        {
         }
 
         public void MoveRight()
