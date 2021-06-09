@@ -14,7 +14,6 @@ namespace WindowsFormsApp1
             InitializeComponent();
             Bitmap b = new Bitmap(pictureBox1.Width, pictureBox1.Height);
             pictureBox1.Image = b;
-            numericUpDown1.Value = 100;
         }
 
         private void circle_Click(object sender, EventArgs e)
@@ -47,7 +46,7 @@ namespace WindowsFormsApp1
                 while (true)
                 {
                     figure.MoveRight(pictureBox1);
-                    Thread.Sleep(ToInt32(numericUpDown1.Value));
+                    Thread.Sleep(ToInt32(100));
                     Invoke(new MethodInvoker(() => pictureBox1.Refresh()));
                     if (figure.x == pictureBox1.Size.Width)
                         break;
