@@ -24,8 +24,8 @@ namespace WindowsFormsApp1
         #region Код, автоматически созданный конструктором форм Windows
 
         /// <summary>
-        /// Требуемый метод для поддержки конструктора — не изменяйте 
-        /// содержимое этого метода с помощью редактора кода.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
@@ -35,16 +35,16 @@ namespace WindowsFormsApp1
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // circle
             // 
-            this.circle.Location = new System.Drawing.Point(86, 345);
-            this.circle.Margin = new System.Windows.Forms.Padding(2);
+            this.circle.Location = new System.Drawing.Point(894, 91);
+            this.circle.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.circle.Name = "circle";
-            this.circle.Size = new System.Drawing.Size(112, 41);
+            this.circle.Size = new System.Drawing.Size(149, 50);
             this.circle.TabIndex = 1;
             this.circle.Text = "Circle";
             this.circle.UseVisualStyleBackColor = true;
@@ -52,10 +52,10 @@ namespace WindowsFormsApp1
             // 
             // square
             // 
-            this.square.Location = new System.Drawing.Point(252, 345);
-            this.square.Margin = new System.Windows.Forms.Padding(2);
+            this.square.Location = new System.Drawing.Point(894, 15);
+            this.square.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.square.Name = "square";
-            this.square.Size = new System.Drawing.Size(112, 41);
+            this.square.Size = new System.Drawing.Size(149, 50);
             this.square.TabIndex = 2;
             this.square.Text = "Square";
             this.square.UseVisualStyleBackColor = true;
@@ -63,10 +63,10 @@ namespace WindowsFormsApp1
             // 
             // rhomb
             // 
-            this.rhomb.Location = new System.Drawing.Point(416, 345);
-            this.rhomb.Margin = new System.Windows.Forms.Padding(2);
+            this.rhomb.Location = new System.Drawing.Point(894, 171);
+            this.rhomb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rhomb.Name = "rhomb";
-            this.rhomb.Size = new System.Drawing.Size(112, 41);
+            this.rhomb.Size = new System.Drawing.Size(149, 50);
             this.rhomb.TabIndex = 3;
             this.rhomb.Text = "Rhomb";
             this.rhomb.UseVisualStyleBackColor = true;
@@ -75,46 +75,49 @@ namespace WindowsFormsApp1
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.pictureBox1.Location = new System.Drawing.Point(1, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(1, 15);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(797, 318);
+            this.pictureBox1.Size = new System.Drawing.Size(886, 391);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(579, 366);
+            this.numericUpDown1.Location = new System.Drawing.Point(894, 276);
+            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
+            this.numericUpDown1.Size = new System.Drawing.Size(160, 22);
             this.numericUpDown1.TabIndex = 6;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(617, 345);
+            this.label1.Location = new System.Drawing.Point(945, 251);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(34, 13);
+            this.label1.Size = new System.Drawing.Size(43, 16);
             this.label1.TabIndex = 7;
             this.label1.Text = "Sleep";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 411);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.rhomb);
             this.Controls.Add(this.square);
             this.Controls.Add(this.circle);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion

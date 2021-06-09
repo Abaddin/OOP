@@ -1,19 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Convert;
 
 namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
-        Figure figure;
         public Form1()
         {
             InitializeComponent();
@@ -24,50 +19,40 @@ namespace WindowsFormsApp1
 
         private void circle_Click(object sender, EventArgs e)
         {
-            figure = new Circle(2, 80, 56);
-            //await Task.Factory.StartNew(start_thread_parse);
-            Task task = new Task(() => 
+            Figure figure = new Circle(2, 80, 56);
+            DrawFigure(GenerateMove(figure));
+        }
+
+        private void square_Click(object sender, EventArgs e)
+        {
+            Figure figure = new Square(56);
+            DrawFigure(GenerateMove(figure));
+        }
+
+        private void rhomb_Click(object sender, EventArgs e)
+        {
+            Figure figure = new Rhomb(10, 180, 50, 50);
+            DrawFigure(GenerateMove(figure));
+        }
+
+        private static async void DrawFigure(Action action)
+        {
+            await Task.Run(action);
+        }
+
+        private Action GenerateMove(Figure figure)
+        {
+            return () =>
             {
                 while (true)
                 {
-                    if (figure.x >= 700)
-                    {
-                        break;
-                    }
-
                     figure.MoveRight(pictureBox1);
-
-                    Thread.Sleep(Convert.ToInt32(numericUpDown1.Value));
-                    Invoke(new MethodInvoker(delegate {
-                        pictureBox1.Refresh(); 
-                    }));
+                    Thread.Sleep(ToInt32(numericUpDown1.Value));
+                    Invoke(new MethodInvoker(() => pictureBox1.Refresh()));
+                    if (figure.x == pictureBox1.Size.Width)
+                        break;
                 }
-            });
-            task.Start();
-        }
-
-        private async void square_Click(object sender, EventArgs e)
-        {
-            figure = new Square(56);
-            await Task.Factory.StartNew(start_thread_parse);
-        }
-
-        private async void rhomb_Click(object sender, EventArgs e)
-        {
-            figure = new Rhomb(10, 180, 50, 50);
-            await Task.Factory.StartNew(start_thread_parse);
-        }
-
-        private void start_thread_parse()
-        {
-            while (true)
-            {
-                figure.MoveRight(pictureBox1);
-                Thread.Sleep(Convert.ToInt32(numericUpDown1.Value));
-                this.Invoke(new MethodInvoker(delegate {
-                    pictureBox1.Refresh();
-                }));
-            }
+            };
         }
     }
 }
